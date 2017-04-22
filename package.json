@@ -24,7 +24,7 @@
     "explore": "source-map-explorer build/build.gen.js"
   },
   "keywords": [
-    "od-virtual-scroll"
+    "od-virtualscroll"
   ],
   "repository": {
     "type": "git",

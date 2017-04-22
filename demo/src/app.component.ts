@@ -63,7 +63,7 @@ import {ConsoleWriterService} from '../../src/api';
   template: `
   <div class="container">
     <h1>od-virtualscroll</h1>
-    <od-virtual-scroll class="tiles-container" [vsData]="data$" [vsOptions]="options$">
+    <od-virtualscroll class="tiles-container" [vsData]="data$" [vsOptions]="options$">
       <ng-template let-item let-row="row" let-column="column">
         <div class="tile">
           <div class="tile-info">
@@ -73,7 +73,7 @@ import {ConsoleWriterService} from '../../src/api';
           {{item}}
         </div>
       </ng-template>
-    </od-virtual-scroll>
+    </od-virtualscroll>
   </div>`
 })
 export class AppComponent implements OnInit, OnDestroy {

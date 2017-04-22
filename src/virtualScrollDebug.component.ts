@@ -5,7 +5,7 @@ import {Subscription} from 'rxjs/Subscription';
 import {IVirtualScrollWindow, ScrollObservableService} from 'od-virtualscroll';
 
 @Component({
-  selector: 'od-virtual-scroll-debug',
+  selector: 'od-virtualscroll-debug',
   styles: [`
     .od-debug-header {
       margin-bottom: 5px;
