@@ -29,7 +29,7 @@ import {ConsoleWriterService} from '../../src/api';
       height: 85%;
     }
 
-    .tile {
+    .cell {
       align-items: center;
       border: 4px #b3eaff solid;
       box-sizing: border-box;
@@ -42,7 +42,7 @@ import {ConsoleWriterService} from '../../src/api';
       width: 200px;
     }
 
-    .tile-info {
+    .cell-info {
       font-size: 10px;
       position: absolute;
       right: 5px;
@@ -65,8 +65,8 @@ import {ConsoleWriterService} from '../../src/api';
     <h1>od-virtualscroll</h1>
     <od-virtualscroll class="tiles-container" [vsData]="data$" [vsOptions]="options$">
       <ng-template let-item let-row="row" let-column="column">
-        <div class="tile">
-          <div class="tile-info">
+        <div class="cell">
+          <div class="cell-info">
             <span>Row: {{row}}</span><br>
             <span>Column: {{column}}</span>
           </div>
