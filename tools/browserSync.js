@@ -6,7 +6,7 @@ browserSync({
   logFileChanges: true,
   reloadDelay: 200,
   reloadDebounce: 500,
-  files: ['src/*.ts', 'demo/*.ts', 'demo/*.html', 'systemjs.config.js'],
+  files: ['src/**/*.ts', 'demo/src/*.ts', 'demo/*.html', 'demo/systemjs.config.js'],
   watchOptions: {ignored: 'node_modules'},
   server: {baseDir: './',directory: true}
 });
